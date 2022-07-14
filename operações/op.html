@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações Básicas</title>
+
+    <link rel="stylesheet" href="op.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <script src="op.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Operações Básicas</h1>
+    </header>
+    <main>
+        <div class="caixa soma">
+            <p><input type="number" name="numero" class="numero" id="primeiroSoma" placeholder="Primeiro número"> <strong>+</strong> <input type="number" name="numero" class="numero" id="segundoSoma" placeholder="Segundo número"> <input type="button" value="Somar" class="botao" id="somar" onclick="somar()" ></p>
+            <p id="resultadoSoma" class="resultado">Resultado</p>
+        </div>
+        <div class="caixa subtracao">
+            <p><input type="number" name="numero" class="numero" id="primeiroSub" placeholder="Primeiro número"> <strong>-</strong> <input type="number" name="numero" class="numero" id="segundoSub" placeholder="Segundo número"> <input type="button" value="Subtrair" class="botao" id="subtrair" onclick="subtrair()"></p>
+            <p id="resultadoSub" class="resultado">Resultado</p>
+        </div>
+        <div class="caixa multiplicacao">
+            <p><input type="number" name="numero" class="numero" id="primeiroMult" placeholder="Primeiro número"> <strong>x</strong> <input type="number" name="numero" class="numero" id="segundoMult" placeholder="Segundo número"> <input type="button" value="Multiplicar" class="botao" id="multiplicar" onclick="multiplicar()"></p>
+            <p id="resultadoMult" class="resultado">Resultado</p>
+        </div>
+        <div class="caixa divisao">
+            <p><input type="number" name="numero" class="numero" id="primeiroDiv" placeholder="Primeiro número"> <strong>÷</strong> <input type="number" name="numero" class="numero" id="segundoDiv" placeholder="Segundo número"> <input type="button" value="Dividir" class="botao" id="dividir" onclick="dividir()"></p>
+            <p id="resultadoDiv" class="resultado">Resultado</p>
+        </div>
+    </main>
+</body>
+</html>
